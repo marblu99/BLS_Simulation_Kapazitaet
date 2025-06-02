@@ -1,0 +1,139 @@
+# 3_timetable.yaml
+timetable:
+  - train_id: Z1
+    behaviour: return
+    depart:
+      station: SO
+      time: 0
+      occupied_before_start: 0
+    arrival:
+      station: BDF
+    stops:
+      - station: SO
+        stop_time: 120
+      - station: BIST
+        stop_time: 60
+      - station: GLF
+        stop_time: 60
+      - station: WR
+        stop_time: 60
+      - station: UT
+        stop_time: 60
+      - station: AEF
+        stop_time: 60
+      - station: KIAL
+        stop_time: 60
+      - station: BDFB
+        stop_time: 60
+      - station: BDF
+        stop_time: 120
+
+  - train_id: G1
+    behaviour: terminate
+    depart:
+      station: BDF
+      time: 600
+      occupied_before_start: 60
+    arrival:
+      station: SO
+    stops:
+      - station: BDF
+        stop_time: 120
+      - station: BDFB
+        stop_time: 60
+      - station: KIAL
+        stop_time: 60
+      - station: UT
+        stop_time: 60
+      - station: WR
+        stop_time: 60
+      - station: GLF
+        stop_time: 60
+      - station: BIST
+        stop_time: 60
+      - station: SO
+        stop_time: 120
+
+  - train_id: Z3
+    behaviour: return
+    depart:
+      station: BDF
+      time: 0
+      occupied_before_start: 0
+    arrival:
+      station: SO
+    stops:
+      - station: BDF
+        stop_time: 120
+      - station: BDFB
+        stop_time: 60
+      - station: KIAL
+        stop_time: 60
+      - station: AEF
+        stop_time: 60
+      - station: UT
+        stop_time: 60
+      - station: WR
+        stop_time: 60
+      - station: GLF
+        stop_time: 60
+      - station: BIST
+        stop_time: 60
+      - station: SO
+        stop_time: 120
+
+  - train_id: Z4
+    behaviour: return
+    depart:
+      station: BDF
+      time: 300
+      occupied_before_start: 0
+    arrival:
+      station: SO
+    stops:
+      - station: BDF
+        stop_time: 120
+      - station: BDFB
+        stop_time: 60
+      - station: KIAL
+        stop_time: 60
+      - station: AEF
+        stop_time: 60
+      - station: UT
+        stop_time: 60
+      - station: WR
+        stop_time: 60
+      - station: GLF
+        stop_time: 60
+      - station: BIST
+        stop_time: 60
+      - station: SO
+        stop_time: 120
+  
+  - train_id: Z5
+    behaviour: return
+    depart:
+      station: SO
+      time: 600
+      occupied_before_start: 0
+    arrival:
+      station: BDF
+    stops:
+      - station: BDF
+        stop_time: 120
+      - station: BDFB
+        stop_time: 60
+      - station: KIAL
+        stop_time: 60
+      - station: AEF
+        stop_time: 60
+      - station: UT
+        stop_time: 60
+      - station: WR
+        stop_time: 60
+      - station: GLF
+        stop_time: 60
+      - station: BIST
+        stop_time: 60
+      - station: SO
+        stop_time: 120

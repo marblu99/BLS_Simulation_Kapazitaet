@@ -1,0 +1,102 @@
+# 1_infrastructure.yaml
+route:
+  - BDF
+  - S1
+  - BDFB
+  - S2
+  - S3
+  - KIAL
+  - S4
+  - AEF
+  - S5
+  - UT
+  - S6
+  - WR
+  - S7
+  - GLF
+  - S8
+  - BIST
+  - S9
+  - SO
+
+infrastructure:
+  BDF:
+    type: station
+    normal_capacity: 6
+
+  S1:
+    type: section
+    normal_capacity: 1
+    length: 702
+
+  BDFB:
+    type: station
+    normal_capacity: 1
+
+  S2:
+    type: section
+    normal_capacity: 1
+    length: 1775
+
+  S3:
+    type: section
+    normal_capacity: 1
+    length: 1309
+
+  KIAL:
+    type: station
+    normal_capacity: 2
+
+  S4:
+    type: section
+    normal_capacity: 1
+    length: 2034
+
+  AEF:
+    type: station
+    normal_capacity: 2
+
+  S5:
+    type: section
+    normal_capacity: 1
+    length: 3872
+
+  UT:
+    type: station
+    normal_capacity: 2
+
+  S6:
+    type: section
+    normal_capacity: 1
+    length: 2553
+
+  WR:
+    type: station
+    normal_capacity: 2
+
+  S7:
+    type: section
+    normal_capacity: 1
+    length: 2171
+
+  GLF:
+    type: station
+    normal_capacity: 1
+
+  S8:
+    type: section
+    normal_capacity: 2
+    length: 1118
+
+  BIST:
+    type: station
+    normal_capacity: 2
+
+  S9:
+    type: section
+    normal_capacity: 1
+    length: 4868
+
+  SO:
+    type: station
+    normal_capacity: 4
