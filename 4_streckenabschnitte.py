@@ -4,10 +4,10 @@ import os
 import sys
 
 # YAML-Dateien laden
-with open("1_infrastructure.yaml", "r") as f:
+with open("1_Infrastruktur.yaml", "r") as f:
     infra_data = yaml.safe_load(f)
 
-with open("2_vprofile.yaml", "r") as f:
+with open("2_Vprofil.yaml", "r") as f:
     vprofile_data = yaml.safe_load(f)
 
 route = infra_data["route"]

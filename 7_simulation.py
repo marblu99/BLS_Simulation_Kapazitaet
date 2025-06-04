@@ -16,12 +16,12 @@ max_sim_time = 3600  # Maximale Simulationszeit in Sekunden
 log_schritte = 1    # Intervall in Sekunden fuer die Statusausgabe
 
 # ==== Infrastruktur laden ====
-with open("1_infrastructure.yaml") as f:
+with open("1_Infrastruktur.yaml") as f:
     infra_data   = yaml.safe_load(f)
     route        = infra_data["route"]
     infra_yaml   = infra_data["infrastructure"]
 
-with open("3_timetable.yaml") as f:
+with open("3_Fahrplan.yaml") as f:
     timetable_data = yaml.safe_load(f)["timetable"]
 
 with open("json/breaktimes.json") as f:

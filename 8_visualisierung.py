@@ -8,7 +8,7 @@ import random
 from collections import defaultdict
 
 class InfrastructureVisualizer:
-    def __init__(self, infra_path="1_infrastructure.yaml", sim_log_path="json/simulation_log.json"):
+    def __init__(self, infra_path="1_Infrastruktur.yaml", sim_log_path="json/simulation_log.json"):
         pygame.init()
 
         self.element_occupancy_times = defaultdict(float)
@@ -24,7 +24,7 @@ class InfrastructureVisualizer:
         self.train_delays = {}
         self.wait_start_times = {}
         
-        self.width = 1400
+        self.width = 1500
         self.height = 650
 
         # Farben
@@ -752,7 +752,7 @@ class InfrastructureVisualizer:
         sys.exit()
 
 def main():
-    infra_path = "1_infrastructure.yaml"
+    infra_path = "1_Infrastruktur.yaml"
     sim_log_path = "json/simulation_log.json"
 
     if not os.path.exists(infra_path):

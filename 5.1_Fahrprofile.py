@@ -12,7 +12,7 @@ start_v = False               # True = Start mit Geschwindigkeit > 0
 halt_am_ende = True          # True = Zug hält am Ende
 
 # Konstanten die nicht geändert werden sollen
-yaml_pfad = "2_vprofile.yaml" # Zielprofil (YAML)
+yaml_pfad = "2_Vprofil.yaml" # Zielprofil (YAML)
 csv_ordner = "csv"            # Ordner mit Simulationsdaten
 a_toleranz = 0.01             # Schwelle zur Phasenerkennung
 
